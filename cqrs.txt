@@ -1,0 +1,11 @@
+CQRS
+Öncelikle cqrs'in amaçladığı şey command ile query ayırt etmektir
+
+comman=Ekleme güncelleme silme isteklerine denir.Ek olarak ekleme+listeleme gibi işlemlerde aynı kategoride yer alır 
+query=Listeleme isteklerine denir 
+
+Neden kullanıyoruz ?
+Küçük boyutlu projelerde çok sorun olmamakla birlikte örnek üzerinden gidecek olursak 
+Product sınıfına ait 3 ürünü listelemek istediğimizde product için yazdığımız service kısmında 3 için bir method fakat 4 istersek ayrı bir method yazmak zorunda
+olacağız ve böylece karmaşıklık artacak ve proje şişecektir.
+
