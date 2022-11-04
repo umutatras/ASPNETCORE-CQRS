@@ -1,7 +1,7 @@
 CQRS
 Öncelikle cqrs'in amaçladığı şey command ile query ayırt etmektir
 
-comman=Ekleme güncelleme silme isteklerine denir.Ek olarak ekleme+listeleme gibi işlemlerde aynı kategoride yer alır 
+command=Ekleme güncelleme silme isteklerine denir.Ek olarak ekleme+listeleme gibi işlemlerde aynı kategoride yer alır 
 query=Listeleme isteklerine denir 
 
 Neden kullanıyoruz ?
